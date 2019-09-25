@@ -92,3 +92,4 @@ The Action will then deploy your site to `{your-github-pages-url}/{your-reposito
 If you do not wish to use GitHub Pages, simply remove the `/.github/workflows/deploy.yml` file.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+# Island-Website-1.0
