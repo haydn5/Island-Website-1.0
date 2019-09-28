@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic:100|Shadows+Into+Light&display=swap');
+
+
+.absoluteNav {
+    /* 	background-image: url(../img/red-background.jpg); */
+    /* 	background-color: #f14b4b; */
+        color: white;
+    /* 	overflow: hidden; */
+        padding: 15px 10px;
+        position: absolute;
+        width: 100%;
+        z-index: 10;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+    /* 	min-height: 55px; */
+    }
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h2 {
+    font-family: 'Livvic', sans-serif;
+    font-weight: 100;
+    font-size: 1.4em !important;
+}
+
+
+
+.navbar {
+    padding: 10px 0px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link, .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0px !important;
+    padding-left: 20px !important;
+}
+
+footer {
+    background-color: rgb(85, 85, 85);
+    padding: 20px;
+}
+
+footer p {
+    color: white;
+}
+
+.yellow-box {
+    float: left; 
+    background-color: yellow;
+    max-width: 250px;
+    margin: 10px;
+    margin-top: 5px;
+}

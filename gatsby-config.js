@@ -1,9 +1,10 @@
 module.exports = {
   pathPrefix: `/gatsby-creative`,
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `How I Fell in love With an Island`,
+    description: ``,
+    author: `Haydn S. Adams`,
+    siteUrl: `https://www.howifellinlovewith.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -15,6 +16,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
